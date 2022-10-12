@@ -1,0 +1,52 @@
+.fish {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(167, 167, 255);
+    transition: left 0.85s;
+}
+
+#lake {
+    width: 20px; height: 20px; border: 2px solid red;
+}
+
+#fish1 {
+    top: 30px; left: 30px;
+}
+
+#fish2 {
+    top: 110px; left: 30px;
+}
+#fish3 {
+    top: 190px; left: 30px;
+}
+#fish4 {
+    top: 270px; left: 30px;
+}
+#fish5 {
+    top: 350px; left: 30px;
+}
+#fish6 {
+    top: 430px; left: 30px;
+}
+#fish7 {
+    top: 510px; left: 30px;
+}
+#fish8 {
+    top: 590px; left: 30px;
+}
+#fish9 {
+    top: 670px; left: 30px;
+}
+#fish10 {
+    top: 750px; left: 30px;
+}
+
+#point_fish {
+    width: 16%;
+    height: 40px;
+    border: 2px solid red;
+    position: absolute; left: 42%; bottom: 10px;
+    text-align: center;
+    line-height: 40px; font-size: 30px;
+}
