@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title> Hello </title>
+    <link rel="stylesheet" href="maze_style.css"/>
+    
+    <title>Document</title>
 </head>
-<body>
-    <div id="container">
-    <div id="title">
-        TẤM CÁM
+<body id="ngu" onkeydown="myFunction(event)" >
+    <div id="maze"> 
+        <div id="player"></div>
+        <div class="block" id="win_flag"></div>
+        <div id="step"> <p id="step_l"> STEP LEFT: 150 </p> </p></div>
+        <div class="point" id="po1"><p id="p1">20</p></div>
+        <div class="point" id="po2"><p id="p2">40</p></div>
+        <div class="point" id="po3"><p id="p3">50</p></div>
+        <div class="point" id="po4"><p id="p4">70</p></div>
+        <div class="point" id="po5"><p id="p5">17</p></div>
+        <div class="block" id="entrance"></div>
     </div>
-    <div id="play_button">
-        Start now
-    </div>
-    <div id="character_container">
-        <img class="character_img" id="img_tam" src="images/tam.png">
-        <img class="character_img" id="img_cam" src="images/cam.png">
-        <img class="character_img" id="img_me" src="images/me.png">
-        <img class="character_img" id="img_but" src="images/but.png">
-    </div>
-    </div>
+
 </body>
+<script src="players_moving.js"></script>
+<script src="maze_genaration.js"></script>
 </html>

@@ -1,0 +1,29 @@
+for (var i=1; i<=19; i++) {
+    for (var j=1; j<=19; j++) {
+        creat_wall(i*2,j*2);
+    }
+}
+
+
+  
+creat_wall(3,2);creat_wall(4,1);creat_wall(3,4);creat_wall(5,4);creat_wall(6,3);creat_wall(6,1);creat_wall(1,6);creat_wall(3,6);creat_wall(5,6);creat_wall(7,6);creat_wall(8,5);creat_wall(8,3);creat_wall(9,4);creat_wall(9,6);creat_wall(11,2);creat_wall(12,1);creat_wall(13,4);
+
+creat_wall(14,5);creat_wall(13,6);creat_wall(14,3);creat_wall(16,1);creat_wall(16,3);creat_wall(15,6);creat_wall(19,4);creat_wall(17,2);creat_wall(20,3);creat_wall(20,1);creat_wall(20,5);creat_wall(19,6);creat_wall(17,6);creat_wall(21,4);creat_wall(23,4);creat_wall(22,5);creat_wall(22,7);creat_wall(23,8);creat_wall(24,5);creat_wall(21,2);creat_wall(26,1);creat_wall(24,1);creat_wall(26,5);creat_wall(26,7);creat_wall(27,4);creat_wall(28,3);creat_wall(28,1);creat_wall(28,5);creat_wall(29,4);creat_wall(30,1);creat_wall(30,7);creat_wall(29,8);creat_wall(33,2);creat_wall(35,2);creat_wall(37,2);creat_wall(33,4);creat_wall(35,4);creat_wall(37,4);creat_wall(32,5);creat_wall(33,6);creat_wall(35,6);creat_wall(36,7);creat_wall(32,7);
+
+creat_wall(34,9);creat_wall(36,9);creat_wall(37,12);creat_wall(35,12);creat_wall(34,11);creat_wall(34,13);creat_wall(35,14);creat_wall(34,15);creat_wall(37,16);creat_wall(35,18);creat_wall(33,18);creat_wall(32,17);creat_wall(32,15);creat_wall(32,11);creat_wall(31,10);creat_wall(31,12);creat_wall(29,12);creat_wall(28,11);creat_wall(28,9);creat_wall(32,19);creat_wall(31,20);creat_wall(30,19);creat_wall(30,17);creat_wall(30,15);creat_wall(30,13);creat_wall(37,20);creat_wall(35,20);creat_wall(30,21);creat_wall(31,22);creat_wall(33,22);creat_wall(35,22);creat_wall(37,24);creat_wall(37,26);creat_wall(37,28);creat_wall(35,28);creat_wall(33,28);creat_wall(32,27);creat_wall(32,25);creat_wall(32,23);
+
+creat_wall(34,25);creat_wall(34,23);creat_wall(36,31);creat_wall(35,30);creat_wall(34,31);creat_wall(34,33);creat_wall(37,34);creat_wall(35,36);creat_wall(33,36);creat_wall(31,36);creat_wall(30,37);creat_wall(30,35);creat_wall(30,33);creat_wall(30,31);creat_wall(30,29);creat_wall(30,27);creat_wall(30,23);creat_wall(31,30);creat_wall(32,31);creat_wall(32,33);creat_wall(1,8);
+
+creat_wall(4,7);creat_wall(5,8);creat_wall(4,9);creat_wall(5,10);creat_wall(8,9);creat_wall(8,11);creat_wall(7,12);creat_wall(5,12);creat_wall(3,12);creat_wall(2,11);creat_wall(2,35);creat_wall(2,33);creat_wall(3,32);creat_wall(1,30);creat_wall(2,27);creat_wall(2,25);creat_wall(2,23);creat_wall(2,21);creat_wall(2,19);creat_wall(2,17);creat_wall(2,15);creat_wall(2,13);creat_wall(4,13);creat_wall(3,18);creat_wall(5,18);creat_wall(6,19);creat_wall(7,20);creat_wall(6,21);creat_wall(4,21);creat_wall(4,23);creat_wall(3,24);creat_wall(5,24);creat_wall(7,24);creat_wall(8,23);
+
+creat_wall(8,25);creat_wall(7,26);creat_wall(5,26);creat_wall(4,29);creat_wall(3,30);creat_wall(5,30);creat_wall(7,28);creat_wall(8,29);creat_wall(9,30);creat_wall(10,29);creat_wall(10,27);creat_wall(11,28);creat_wall(11,30);creat_wall(13,30);creat_wall(15,30);creat_wall(16,31);creat_wall(16,29);creat_wall(15,28);creat_wall(16,27);creat_wall(15,26);creat_wall(17,26);creat_wall(9,24);creat_wall(11,24);creat_wall(12,25);creat_wall(12,23);creat_wall(11,22);creat_wall(12,20);creat_wall(11,20);creat_wall(12,19);creat_wall(11,18);creat_wall(9,18);creat_wall(5,16);creat_wall(7,16);creat_wall(10,17);creat_wall(9,16);creat_wall(10,15);creat_wall(9,14);creat_wall(7,14);creat_wall(9,12);creat_wall(11,12);creat_wall(12,11);creat_wall(11,10);creat_wall(11,8);
+
+creat_wall(13,8);creat_wall(14,9);creat_wall(13,12);creat_wall(15,12);creat_wall(17,12);
+
+creat_wall(19,12);creat_wall(20,11);creat_wall(20,9);creat_wall(20,7);creat_wall(19,8);creat_wall(17,8);creat_wall(17,10);creat_wall(19,10);creat_wall(21,10);creat_wall(23,10);creat_wall(26,11);creat_wall(25,12);creat_wall(23,12);creat_wall(27,12);creat_wall(11,16);creat_wall(13,16);creat_wall(13,14);creat_wall(13,15);creat_wall(16,13);creat_wall(17,14);creat_wall(20,13);creat_wall(20,15);creat_wall(19,16);creat_wall(17,16);creat_wall(13,18);creat_wall(15,18);creat_wall(17,18);creat_wall(19,18);creat_wall(21,18);creat_wall(23,18);creat_wall(22,17);creat_wall(22,15);creat_wall(24,13);creat_wall(23,16);creat_wall(25,16);creat_wall(26,13);creat_wall(27,14);creat_wall(28,15);creat_wall(28,17);creat_wall(27,18);creat_wall(29,20);creat_wall(27,20);creat_wall(25,20);creat_wall(23,20);creat_wall(19,20);creat_wall(14,21);creat_wall(14,23);creat_wall(15,24);creat_wall(16,19);creat_wall(16,21);creat_wall(16,23);creat_wall(16,25);creat_wall(17,20);creat_wall(18,21);creat_wall(19,24);creat_wall(20,23);creat_wall(20,25);creat_wall(20,27);creat_wall(17,28);creat_wall(19,28);creat_wall(21,28);
+
+creat_wall(13,32);creat_wall(11,32);creat_wall(9,32);creat_wall(7,32);creat_wall(5,32);creat_wall(4,35);creat_wall(4,37);creat_wall(5,34);creat_wall(7,36);creat_wall(8,35);creat_wall(8,33);creat_wall(7,39);creat_wall(7,38);creat_wall(9,38);creat_wall(11,38);creat_wall(12,37);creat_wall(12,35);creat_wall(11,34);creat_wall(11,36);creat_wall(13,34);creat_wall(13,36);creat_wall(16,37);creat_wall(16,35);creat_wall(19,36);creat_wall(20,37);creat_wall(22,37);creat_wall(25,36);creat_wall(19,34);creat_wall(21,34);creat_wall(23,34);creat_wall(17,30);creat_wall(19,30);creat_wall(21,30);creat_wall(23,30);creat_wall(18,31);creat_wall(20,31);creat_wall(20,33);creat_wall(23,32);creat_wall(25,32);creat_wall(26,31);creat_wall(26,33);creat_wall(26,35);creat_wall(27,32);creat_wall(28,31);creat_wall(28,33);creat_wall(28,35);
+
+creat_wall(22,27);creat_wall(22,25);creat_wall(23,22);
+
+creat_wall(24,21);creat_wall(27,22);creat_wall(29,22);creat_wall(29,24);creat_wall(27,24);creat_wall(25,24);creat_wall(28,25);creat_wall(29,28);creat_wall(27,28);creat_wall(25,28);creat_wall(26,27);creat_wall(25,26);creat_wall(23,26);creat_wall(26,29);
