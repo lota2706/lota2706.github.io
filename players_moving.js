@@ -2,6 +2,11 @@ var player_x=1;
 var player_y=1;
 var block_wall=[];
 var step=150;
+var p1=20;
+var p2=40;
+var p3=50;
+var p4=70;
+var p5=17;
 
 for (var i=0; i<=39; i++) {
 block_wall[i]=[];
@@ -48,24 +53,24 @@ function moving(direction) {
         player_y+=block_wall[player_x][player_y];
         document.getElementById('player').style.top=player_y*2.5+"%";
     }
-    if (player_x==5 && player_y==1) {step+=20;
-        document.getElementById('p1').innerHTML=0;
+    if (player_x==5 && player_y==1) {step+=p1; p1=0;
+        document.getElementById('p1').innerHTML=p1;
     }
-    if (player_x==3 && player_y==35) {step+=40;
-        document.getElementById('p2').innerHTML=0;
+    if (player_x==3 && player_y==35) {step+=p2; p2=0; 
+        document.getElementById('p2').innerHTML=p2;
     }
-    if (player_x==19 && player_y==38) {step+=50;
-        document.getElementById('p3').innerHTML=0;
+    if (player_x==19 && player_y==38) {step+=p3; p3=0;
+        document.getElementById('p3').innerHTML=p3;
     }
-    if (player_x==31 && player_y==9) {step+=70;
-        document.getElementById('p4').innerHTML=0;
+    if (player_x==31 && player_y==9) {step+=p4; p4=0;
+        document.getElementById('p4').innerHTML=p4;
     }
-    if (player_x==38 && player_y==31) {step+=17;
-        document.getElementById('p4').innerHTML=0;
+    if (player_x==38 && player_y==31) {step+=p5; p5=0;
+        document.getElementById('p4').innerHTML=p5;
     }
     if (player_x==38 && player_y==37) {
         alert("you win");
-        
+        document.getElementById('next').style.display="block";
     }
     if(step<0) {
         alert('you lose! NGU, GÀ')
@@ -85,4 +90,8 @@ function myFunction(event) {
     if (x == "ArrowLeft" || x == "ArrowRight" || x == "ArrowUp" || x == "ArrowDown") { 
       moving(x);
     }
+  }
+
+  function instruc() {
+    alert('Hoàn thành mê cung trong số bước cho phép để nhận thưởng, bước vào các ô màu xanh để nhận thêm bước di chuyển!')
   }

@@ -8,10 +8,13 @@
     
     <title>Document</title>
 </head>
-<body id="ngu" onkeydown="myFunction(event)" >
+<body id="ngu" onkeydown="myFunction(event)" onload="instruc()" >
+    <div id="main">
     <div id="maze"> 
-        <div id="player"></div>
-        <div class="block" id="win_flag"></div>
+        <div id="player"> <img id="face" src="images/face.png"/> </div>
+        <div class="block" id="win_flag">
+            <img id="flag" src="images/flag.png"/>
+        </div>
         <div id="step"> <p id="step_l"> STEP LEFT: 150 </p> </p></div>
         <div class="point" id="po1"><p id="p1">20</p></div>
         <div class="point" id="po2"><p id="p2">40</p></div>
@@ -19,8 +22,9 @@
         <div class="point" id="po4"><p id="p4">70</p></div>
         <div class="point" id="po5"><p id="p5">17</p></div>
         <div class="block" id="entrance"></div>
+        <div id="next"><a href="gift.html"> NEXT </a></div>
     </div>
-
+    </div>
 </body>
 <script src="players_moving.js"></script>
 <script src="maze_genaration.js"></script>
