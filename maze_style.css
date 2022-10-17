@@ -141,3 +141,40 @@
     color: rgb(0, 164, 230);
     transition: color 0.4s;
 }
+
+
+
+#key_con {
+    margin-top: 3vw;
+    box-sizing: border-box;
+    width: 60vw;
+    height: 40vw;
+    display: none;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+
+.key {
+    cursor: pointer;
+    margin: 0;
+    box-sizing: border-box;
+    width: 18vw; height: 18vw;
+    border: 2px solid blue;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    border-radius: 2vw;
+    text-align: center;
+    line-height: 18vw;
+    font-size: 4vw;
+    font-weight: 900;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#key1, #key3 {
+    opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #key_con {
+      display: flex;
+    }
+  }

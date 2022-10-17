@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="maze_style.css"/>
     
-    <title>MAZE game</title>
+    <title>Document</title>
 </head>
 <body id="ngu" onkeydown="myFunction(event)" onload="instruc()" >
     <div id="main">
@@ -23,6 +23,14 @@
         <div class="point" id="po5"><p id="p5">17</p></div>
         <div class="block" id="entrance"></div>
         <div id="next"><a href="gift.html"> NEXT </a></div>
+    </div>
+    <div id="key_con">
+        <div class="key" id="key1"></div>
+        <div class="key" id="key2" onclick="moving('ArrowUp')"> UP </div>
+        <div class="key" id="key3"> </div>
+        <div class="key" id="key4" onclick="moving('ArrowLeft')"> LEFT</div>
+        <div class="key" id="key5" onclick="moving('ArrowDown')"> DOWN</div>
+        <div class="key" id="key6" onclick="moving('ArrowRight')"> RIGHT</div>
     </div>
     </div>
 </body>
