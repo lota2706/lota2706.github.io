@@ -8,6 +8,9 @@ var p3=50;
 var p4=67;
 var p5=17;
 
+var audio = new Audio('images/ting.mp3');
+
+
 for (var i=0; i<=39; i++) {
 block_wall[i]=[];
     for (var j=0; j<=39; j++) {
@@ -54,19 +57,19 @@ function moving(direction) {
         document.getElementById('player').style.top=player_y*2.5+"%";
     }
     if (player_x==5 && player_y==1) {step+=p1; p1=0;
-        document.getElementById('p1').innerHTML=p1;
+        document.getElementById('p1').innerHTML=p1; audio.play();
     }
     if (player_x==3 && player_y==35) {step+=p2; p2=0; 
-        document.getElementById('p2').innerHTML=p2;
+        document.getElementById('p2').innerHTML=p2; audio.play();
     }
     if (player_x==19 && player_y==38) {step+=p3; p3=0;
-        document.getElementById('p3').innerHTML=p3;
+        document.getElementById('p3').innerHTML=p3; audio.play();
     }
     if (player_x==31 && player_y==9) {step+=p4; p4=0;
-        document.getElementById('p4').innerHTML=p4;
+        document.getElementById('p4').innerHTML=p4; audio.play();
     }
     if (player_x==38 && player_y==31) {step+=p5; p5=0;
-        document.getElementById('p4').innerHTML=p5;
+        document.getElementById('p4').innerHTML=p5; audio.play();
     }
     if (player_x==38 && player_y==37) {
         alert("you win");
