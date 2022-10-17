@@ -5,7 +5,7 @@ var step=150;
 var p1=20;
 var p2=40;
 var p3=50;
-var p4=70;
+var p4=67;
 var p5=17;
 
 for (var i=0; i<=39; i++) {
