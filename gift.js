@@ -35,7 +35,7 @@ function slides() {
     },6000)
     setTimeout(function(){
         document.getElementById("sl_3").style.opacity="1";
-    },8000)
+    },10000)
 }
 
 
