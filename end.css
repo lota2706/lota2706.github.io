@@ -39,7 +39,7 @@
 
 .nd {
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: min(5vh,5vw);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 50%;
     height: fit-content;
