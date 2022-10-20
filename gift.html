@@ -5,15 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gift.css"/>
+    <script src="gift.js"></script>
     <title>GIFT</title>
 </head>
-<body>
-    <div id="container">
-        <div class="gift" id="gift1"> <a href="gift1.html"> <img class="gift_img" src="images/gift.png" alt=""></a></div>
-        <div class="gift" id="gift2"> <a href="gift2.html"> <img class="gift_img" src="images/gift.png" alt=""></a></div>
-        <div class="gift" id="gift3"> <a href="gift3.html"> <img class="gift_img" src="images/gift.png" alt=""></a></div>
-        <div class="gift" id="gift4"> <a href="gift4.html"> <img class="gift_img" src="images/gift.png" alt=""></a></div>
-        <div id="tit_g">CHOOSE ONE GIFT</div>
+<body onload="first_slide()">
+    <div id="first_slide">
+        <p class="s1" id="s11">Congratulations on passing the challenge</p>
+        <p class="s1">There are some gifts for your women's day </p>
+        <button id="togift" type="button" onclick="toGift()"> NEXT </button>
     </div>
+    <!-- <div id="first_slide2">
+
+    </div> -->
+    <div class="container">
+        <div class="gift" id="gift1" onclick="showgift(1)">  <img class="gift_img" id="gift_img_1" src="images/gift.png" alt="">
+            <img class="giftcard "id="giftcard1" src="images/iphone14.jpg">
+        </div>
+        <div class="gift" id="gift2" onclick="showgift(2)">  <img class="gift_img" id="gift_img_2" src="images/gift.png" alt="">
+            <img class="giftcard "id="giftcard2" src="images/mac.jpg">
+        </div>
+        <div class="gift" id="gift3" onclick="showgift(3)">  <img class="gift_img" id="gift_img_3" src="images/gift.png" alt="">
+            <img class="giftcard "id="giftcard3" src="images/car.jpg">
+        </div>
+        <div class="gift" id="gift4" onclick="showgift(4)">  <img class="gift_img" id="gift_img_4" src="images/gift.png" alt="">
+            <img class="giftcard "id="giftcard4" src="images/tui.jpg">
+        </div>
+        <div id="tit_g">CHOOSE ONE GIFT</div>   
+    </div>
+    <div class="container" id="cb">
+        <a id="a_end" href="end.html"> NEXT </a> 
+    </div>
+
+    
 </body>
 </html>

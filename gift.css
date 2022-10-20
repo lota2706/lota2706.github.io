@@ -2,7 +2,7 @@
     margin: 0; padding: 0;
 }
 
-#container {
+.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,31 +13,33 @@
 }
 
 .gift {
+    position: relative;
     margin-top: 10vh;
     min-width: 200px;
-    width: 20vw;
+    width: 18vw;
     min-height: 200px;
-    height: 20vw;
-    border: 2px solid red;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    height: 18vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
 }
 
 .gift_img {
     cursor: pointer;
     opacity: 0.8;
     min-width: 200px;
-    width: 20vw;
+    width: 18vw;
     min-height: 200px;
-    height: 20vw;
+    height: 18vw;
     transition: opacity 0.4s, width 0.4s, height 0.4s,min-width 0.4s, min-height 0.4s;
+    z-index: 2;
 }
 .gift_img:hover {
     opacity: 1;
     min-width: 220px;
-    width: 22vw;
+    width: 20vw;
     min-height: 220px;
-    height: 22vw;
+    height: 20vw;
     transition: opacity 0.4s, width 0.4s, height 0.4s,min-width 0.4s, min-height 0.4s;
 }
 
@@ -47,7 +49,7 @@
     height: 5vh;
     line-height: 5vh;
     font-size: 5vh;
-    margin-top: 5vh;
+    margin-top: 15vh;
     font-family: sans-serif;
     font-weight: 900;
 }
@@ -69,5 +71,97 @@
 #n1 {
     font-size: 30px;
 }
+
+#first_slide {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 152, 186);
+    z-index: 2;
+    top: -20px;
+    left: -100vw;
+    transition: left 1s;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    box-sizing: border-box;
+}
+
+/* #first_slide2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    top: -20px;
+    z-index: 1;
+} */
+
+.s1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: min(4vh,4vw);
+    width: 50%;
+    height: fit-content;
+    z-index: 3;
+    margin-top: 2vh;
+}
+
+#s11 {
+    font-size: 8vh;
+}
+
+#togift {
+    height: fit-content;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 150px;
+    margin-top: 2vh;
+    border: 0;
+    background-color: rgb(255, 67, 130);
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 4vh;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#togift:hover {
+    background-color: rgb(255, 194, 214);
+    color: rgb(255, 68, 140);
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.giftcard {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 20px;
+    left: 0;
+    opacity: 0;
+    transition: top 0.3s, opacity 0.3s;
+}
+
+#a_end {
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: min(3vh,3vw);
+    width: 25%;
+    background-color: aquamarine;
+    text-align: center;
+    line-height:min(6vh,6vw) ;
+    transition: color 0.3s, background-color 0.3s;
+    display: none;
+    color: rgb(7, 134, 134);
+    text-decoration: none;
+}
+
+#a_end:hover {
+    color: aliceblue;
+    background-color: rgb(44, 192, 192);     transition: color 0.3s, background-color 0.3s;
+}
+
+
+
 
 

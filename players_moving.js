@@ -76,7 +76,7 @@ function moving(direction) {
         document.getElementById('next').style.display="block";
     }
     if(step<0) {
-        alert('you lose! NGU, GÀ')
+        alert('YOU LOSE! GÀ')
     }
     document.getElementById('step_l').innerHTML='STEP LEFT:'+step;
     if(step%3==0) {
